@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#68FFEB3B"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/videoimage"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_1"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="112dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/videoname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MD.sowrov islam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="34dp"/>
+            <TextView
+                android:id="@+id/videowiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MD.sowrov islam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="14dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
